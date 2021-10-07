@@ -11,19 +11,18 @@ pip install git+https://github.com/jytan17/deep_learning_framework
 - [x] Linear Layers
 - [x] Conv2D
 - [x] MaxPool2D
-- [ ] rnn
-- [ ] lstm
+- [ ] RNN
+- [ ] LSTM
 ### Activations
 - [x] Sigmoid
 - [x] ReLU
 - [x] LeakyReLu
-- [x] SoftMax
+- [ ] SoftMax
 
 ### Loss functions
 - [x] MSELoss
 - [ ] L1Loss
 - [x] CrossEntropyLoss
-- [ ] BinaryCrossEntropyLoss
 
 ### Utilities
 - [ ] Dataloader
@@ -45,12 +44,13 @@ import pydeep.nn as nn
 import numpy as np
 
 
-
+# Note: this model was built to test on mnist, hence the 10classes
 layers = [nn.Linear(784, 100), 
           nn.Sigmoid(), 
           nn.Linear(100, 30), 
           nn.Sigmoid(), 
           nn.Linear(30, 10)]
+         
 
 
 learning_rate = 0.001 # set learning rate
