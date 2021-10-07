@@ -44,7 +44,7 @@ import pydeep.nn as nn
 import numpy as np
 
 
-# Note: this model was built to test on mnist, hence the 10classes
+# Note: this particular model was built to test on mnist, hence the 10 dimensional output size
 layers = [nn.Linear(784, 100), 
           nn.Sigmoid(), 
           nn.Linear(100, 30), 
