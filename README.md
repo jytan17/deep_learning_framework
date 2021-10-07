@@ -2,6 +2,9 @@
 
 A small deep learning framework, with an uninsprational name... PyDeep.
 
+```python
+pip install git+https://github.com/jytan17/deep_learning_framework
+```
 
 ## Implemented/Planned Features
 ### Layers
