@@ -84,7 +84,7 @@ for e in range(epochs):
         # model.zero_grad()
         epoch_loss += loss
         
-    print(f"Epoch {i+1} Loss: {epoch_loss:.4f}") # display the epoch loss of current epoch
+    print(f"Epoch {e+1} Loss: {epoch_loss:.4f}") # display the epoch loss of current epoch
     
 
 # to generata predictions
