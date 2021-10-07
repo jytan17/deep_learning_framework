@@ -1,6 +1,6 @@
 # Deep Learning Framework
 
-A small deep learning framework, with an uninsprational name... PyDeep.
+A small deep learning framework based on numpy, with an uninsprational name... "PyDeep".
 
 ```python
 pip install git+https://github.com/jytan17/deep_learning_framework
