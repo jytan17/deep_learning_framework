@@ -11,6 +11,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/jytan17/deep_learning_framework/issues"
     },
     license='MIT',
-    packages=['models'],
+    packages=['pydeep'],
     install_requires=['numpy'],
 )
