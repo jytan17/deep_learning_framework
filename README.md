@@ -65,7 +65,7 @@ model = nn.Sequential(layers=layers, loss=loss, optim=optim) # init model
 # training loop
 for e in range(epochs):
     epoch_loss = 0
-    # currently not supporting dataloader, so we have to diy
+    # currently not supporting dataloader, so we have to DIY
     perm = np.random.permutation(len(trainx))
     for j in range(len(trainx) // batch_size):
         batch_idx = perm[j: (j+1) * batch_size]
