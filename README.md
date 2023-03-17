@@ -11,29 +11,29 @@ pip install git+https://github.com/jytan17/deep_learning_framework
 - [x] Linear Layers
 - [x] Conv2D
 - [x] MaxPool2D
-- [ ] RNN
-- [ ] LSTM
+- [x] RNN
+- [x] LSTM
 ### Activations
 - [x] Sigmoid
 - [x] ReLU
 - [x] LeakyReLu
-- [ ] SoftMax
+- [x] SoftMax
 
 ### Loss functions
 - [x] MSELoss
-- [ ] L1Loss
+- [x] L1Loss
 - [x] CrossEntropyLoss
 
 ### Utilities
-- [ ] Dataloader
-- [ ] CustomDataset
+- [x] Dataloader
+- [x] CustomDataset
 - [ ] Train
 - [ ] CrossValidate
 - [ ] EarlyStopping
-- [ ] Save Model
-- [ ] Load Model
+- [x] Save Model
+- [x] Load Model
 - [ ] Pretrainded Model
-- [ ] CUDA Support
+- [x] CUDA Support
 
 ## Example Use Case
 
@@ -93,7 +93,9 @@ preds = model(testx)
 ```
 
 ## Acknowledgement
-This project is built on top of the source code from this amazing [tutorial](https://towardsdatascience.com/how-to-build-a-diy-deep-learning-framework-in-numpy-59b5b618f9b7).
+Pydeep was built on top of the source code from this amazing [tutorial](https://towardsdatascience.com/how-to-build-a-diy-deep-learning-framework-in-numpy-59b5b618f9b7).
+
+Pydeep2 is a more advanced (and my second) attempt at building a deep learning framework. I followed the chinese version of the book [Deep Learning From Scratch 3](https://www.amazon.co.jp/dp/4873119065/ref=cm_sw_em_r_mt_dp_U_e1WYEb24Q2).
 
 
 
